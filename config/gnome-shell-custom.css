@@ -1,0 +1,331 @@
+/* CUSTOM_TRANSPARENT_PANEL */
+#panel, #panel.solid, #panel:overview {
+  height: 28px !important;
+  font-size: 9.5pt !important;
+  background-color: rgba(18, 18, 24, 0.18) !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#panel .panel-button {
+  border: 2px solid transparent !important;
+  border-radius: 9999px !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+#panel .panel-button:hover,
+#panel .panel-button:active,
+#panel .panel-button:checked {
+  background-color: rgba(255, 255, 255, 0.20) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.28) !important;
+  border-radius: 9999px !important;
+}
+
+/* Crisp macOS Apple logo on top-left replacing GNOME workspace dots */
+#panel .panel-button#panelActivities {
+  min-width: 34px !important;
+  background-image: url("assets/activities-white.svg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px 16px !important;
+}
+
+#panel .panel-button#panelActivities .workspace-dot {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  background-color: transparent !important;
+  opacity: 0 !important;
+}
+
+/* CUSTOM_TAHOE_GLASS_DOCK */
+#dashtodockContainer #dash .dash-background,
+#dashtodockContainer.bottom #dash .dash-background,
+#dashtodockContainer.extended #dash .dash-background,
+#dash .dash-background {
+  background-color: rgba(18, 18, 22, 0.24) !important;
+  background-image: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+  border-radius: 22px !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 8px 26px rgba(0, 0, 0, 0.35) !important;
+  padding: 4px 10px !important;
+  margin-bottom: 6px !important;
+}
+
+#dashtodockContainer #dash .dash-separator,
+#dash .dash-separator {
+  width: 1px !important;
+  margin: 6px 6px !important;
+  background-color: rgba(255, 255, 255, 0.26) !important;
+}
+
+/* CUSTOM_MEDIUM_PILL_TRANSPARENT_QUICK_SETTINGS */
+.quick-settings {
+  padding: 16px !important;
+  border-radius: 30px !important;
+  background-color: rgba(18, 18, 24, 0.22) !important;
+  border: 1px solid rgba(255, 255, 255, 0.26) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 10px 28px rgba(0, 0, 0, 0.25) !important;
+}
+
+.quick-settings-grid {
+  spacing-rows: 9px !important;
+  spacing-columns: 9px !important;
+}
+
+/* Medium circular top system buttons (Battery, Screenshot, Settings, Lock, Power) */
+.quick-settings-system-item .icon-button,
+.quick-settings-system-item .power-item {
+  min-height: 34px !important;
+  min-width: 34px !important;
+  padding: 5px 12px !important;
+  font-size: 9.8pt !important;
+  background-color: rgba(255, 255, 255, 0.10) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  box-shadow: none !important;
+  border-radius: 9999px !important;
+  color: white !important;
+}
+
+.quick-settings-system-item .icon-button:hover,
+.quick-settings-system-item .power-item:hover {
+  background-color: rgba(255, 255, 255, 0.20) !important;
+}
+
+/* Slim sliders (Volume & Brightness) */
+.quick-slider {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 2px 4px !important;
+  min-height: 26px !important;
+}
+
+.quick-slider .icon-button {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 3px !important;
+  margin: 2px 0 !important;
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.quick-slider .slider {
+  -barlevel-height: 5px !important;
+  -barlevel-background-color: rgba(255, 255, 255, 0.26) !important;
+  -barlevel-active-background-color: #ffffff !important;
+  -barlevel-border-width: 0px !important;
+  -slider-handle-radius: 7px !important;
+  color: #ffffff !important;
+}
+
+/* Medium translucent toggle pills with full circular pill boundaries */
+.quick-toggle, .quick-toggle-has-menu {
+  min-width: 142px !important;
+  max-width: 172px !important;
+  min-height: 44px !important;
+  border-radius: 9999px !important;
+  font-size: 9.8pt !important;
+  box-shadow: none !important;
+}
+
+.quick-toggle .quick-toggle-title {
+  font-size: 9.8pt !important;
+}
+
+.quick-toggle .quick-toggle-subtitle {
+  font-size: 8.4pt !important;
+}
+
+/* Standalone toggle */
+.quick-toggle {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  padding: 6px 10px !important;
+  color: white !important;
+}
+
+.quick-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.16) !important;
+}
+
+.quick-toggle:checked {
+  background-color: rgba(10, 132, 255, 0.52) !important;
+  border: 1px solid rgba(255, 255, 255, 0.30) !important;
+  color: white !important;
+}
+
+.quick-toggle:checked:hover {
+  background-color: rgba(10, 132, 255, 0.66) !important;
+  color: white !important;
+}
+
+.quick-toggle > StBoxLayout {
+  spacing: 8px !important;
+  padding: 0 2px !important;
+}
+
+.quick-toggle .quick-toggle-icon {
+  min-width: 30px !important;
+  min-height: 30px !important;
+  icon-size: 15px !important;
+  border-radius: 9999px !important;
+  background-color: rgba(255, 255, 255, 0.20) !important;
+  color: #ffffff !important;
+}
+
+.quick-toggle:checked .quick-toggle-icon {
+  background-color: #ffffff !important;
+  color: #007AFF !important;
+}
+
+/* Split toggle container (Wi-Fi, Bluetooth, Power Mode, Keyboard) */
+.quick-toggle-has-menu {
+  padding: 0 !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+.quick-toggle-has-menu .quick-toggle {
+  padding: 6px 4px 6px 8px !important;
+  margin: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+  color: white !important;
+  border-radius: 9999px 0 0 9999px !important;
+}
+
+.quick-toggle-has-menu .quick-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.10) !important;
+}
+
+.quick-toggle-has-menu .quick-toggle:checked {
+  background-color: rgba(10, 132, 255, 0.52) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.quick-toggle-has-menu .quick-toggle:checked:hover {
+  background-color: rgba(10, 132, 255, 0.66) !important;
+}
+
+.quick-toggle-has-menu .quick-toggle .quick-toggle-icon {
+  min-width: 30px !important;
+  min-height: 30px !important;
+  icon-size: 15px !important;
+  border-radius: 9999px !important;
+  background-color: rgba(255, 255, 255, 0.20) !important;
+  color: #ffffff !important;
+}
+
+.quick-toggle-has-menu .quick-toggle:checked .quick-toggle-icon {
+  background-color: #ffffff !important;
+  color: #007AFF !important;
+}
+
+.quick-toggle-has-menu .quick-toggle-menu-button {
+  margin: 0 !important;
+  padding: 0 10px 0 5px !important;
+  min-width: 26px !important;
+  min-height: 44px !important;
+  border-radius: 0 9999px 9999px 0 !important;
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.88) !important;
+  box-shadow: none !important;
+}
+
+.quick-toggle-has-menu .quick-toggle-menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.14) !important;
+  color: #ffffff !important;
+}
+
+.quick-toggle-has-menu .quick-toggle-menu-button:checked {
+  background-color: rgba(10, 132, 255, 0.52) !important;
+  color: #ffffff !important;
+}
+
+.quick-toggle-has-menu .quick-toggle-separator {
+  width: 0px !important;
+  background-color: transparent !important;
+}
+
+/* Submenus inside Quick Settings */
+.quick-toggle-menu {
+  background-color: rgba(18, 18, 24, 0.35) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  border-radius: 22px !important;
+  color: white !important;
+}
+
+/* CUSTOM_MACOS_ALT_TAB */
+.switcher-list {
+  background-color: rgba(18, 18, 24, 0.28) !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+  border-radius: 26px !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 14px 36px rgba(0, 0, 0, 0.38) !important;
+  padding: 16px !important;
+  color: white !important;
+}
+
+.switcher-list .item-box {
+  border-radius: 18px !important;
+  padding: 10px !important;
+  border: 1px solid transparent !important;
+}
+
+.switcher-list .item-box:selected,
+.switcher-list .item-box:hover {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  border: 1px solid rgba(255, 255, 255, 0.30) !important;
+  color: white !important;
+}
+
+.switcher-list .switcher-list-item-container {
+  spacing: 8px !important;
+}
+
+/* CUSTOM_MACOS_OVERVIEW */
+.search-entry {
+  background-color: rgba(18, 18, 24, 0.30) !important;
+  border: 1px solid rgba(255, 255, 255, 0.26) !important;
+  border-radius: 9999px !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 8px 24px rgba(0, 0, 0, 0.28) !important;
+  color: #ffffff !important;
+  padding: 8px 16px !important;
+}
+
+.search-entry:hover,
+.search-entry:focus {
+  background-color: rgba(18, 18, 24, 0.42) !important;
+  border: 1px solid rgba(255, 255, 255, 0.42) !important;
+  color: #ffffff !important;
+}
+
+.search-entry StLabel.hint-text {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.workspace-background {
+  border-radius: 24px !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.48), 0 0 0 1px rgba(255, 255, 255, 0.16) !important;
+}
+
+.app-well-app .overview-icon,
+.grid-search-result .overview-icon {
+  border-radius: 20px !important;
+}
+
+.app-well-app:hover .overview-icon,
+.app-well-app:focus .overview-icon,
+.app-well-app:selected .overview-icon {
+  background-color: rgba(255, 255, 255, 0.16) !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+}
+
+.app-folder-dialog {
+  background-color: rgba(18, 18, 24, 0.48) !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+  border-radius: 28px !important;
+}

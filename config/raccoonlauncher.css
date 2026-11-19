@@ -1,0 +1,78 @@
+.raccoon-backdrop {
+    background-color: transparent;
+}
+
+.raccoon-box {
+    padding: 14px;
+    background-color: rgba(18, 18, 24, 0.72);
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 18px 48px rgba(0, 0, 0, 0.48);
+}
+
+.raccoon-entry {
+    font-size: 19px;
+    padding: 10px 14px;
+    border-radius: 14px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    caret-color: #0A84FF;
+}
+
+.raccoon-header {
+    spacing: 8px;
+}
+
+.raccoon-settings-button {
+    padding: 8px;
+    border-radius: 9999px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.raccoon-settings-button:hover {
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #ffffff;
+}
+
+.raccoon-settings-icon {
+    icon-size: 18px;
+}
+
+.raccoon-scroll {
+    margin-top: 10px;
+    max-height: 360px;
+}
+
+.raccoon-results {
+    spacing: 3px;
+}
+
+.raccoon-result {
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.raccoon-result:hover,
+.raccoon-result.selected {
+    background-color: rgba(10, 132, 255, 0.60);
+}
+
+.raccoon-result-box {
+    spacing: 12px;
+}
+
+.raccoon-result-icon {
+    icon-size: 32px;
+}
+
+.raccoon-result-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.raccoon-result-desc {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.72);
+}

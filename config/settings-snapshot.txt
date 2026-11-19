@@ -1,0 +1,162 @@
+# Ubuntu 26.04 (GNOME 50) macOS Tahoe Dark Glass — Settings Snapshot
+# Captured on: 2026-11-19T19:48:40+02:00
+
+[Interface & Window Manager]
+org.gnome.desktop.interface color-scheme = 'prefer-dark'
+org.gnome.desktop.interface accent-color = 'blue'
+org.gnome.desktop.interface gtk-theme = 'MacTahoe-Dark'
+org.gnome.desktop.interface icon-theme = 'MacTahoe-dark'
+org.gnome.desktop.interface cursor-theme = 'MacTahoe-cursors'
+org.gnome.desktop.interface font-name = 'SF Pro Text 11'
+org.gnome.desktop.interface document-font-name = 'SF Pro Text 11'
+org.gnome.desktop.interface show-battery-percentage = true
+org.gnome.desktop.interface clock-show-weekday = true
+org.gnome.desktop.interface clock-show-date = true
+org.gnome.desktop.wm.preferences button-layout = ':minimize,maximize,close'
+org.gnome.desktop.wm.preferences titlebar-font = 'SF Pro Display Bold 11'
+org.gnome.shell.extensions.user-theme name = 'MacTahoe-Dark'
+org.gnome.shell enabled-extensions = ['user-theme@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'rounded-window-corners@fxgn', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'raccoonlauncher@shimafallah.github.io', 'ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com']
+
+[Keybindings]
+org.gnome.desktop.wm.keybindings switch-applications = ['<Alt>Tab', '<Super>Tab']
+org.gnome.desktop.wm.keybindings switch-applications-backward = ['<Shift><Alt>Tab', '<Shift><Super>Tab']
+org.gnome.desktop.wm.keybindings switch-windows = @as []
+org.gnome.desktop.wm.keybindings switch-group = ['<Alt>Above_Tab', '<Super>Above_Tab']
+org.gnome.desktop.wm.keybindings activate-window-menu = @as []
+
+[Dock (Ubuntu Dock / Dash to Dock)]
+org.gnome.shell.extensions.dash-to-dock dock-position = 'BOTTOM'
+org.gnome.shell.extensions.dash-to-dock extend-height = false
+org.gnome.shell.extensions.dash-to-dock dock-fixed = false
+org.gnome.shell.extensions.dash-to-dock autohide = true
+org.gnome.shell.extensions.dash-to-dock intellihide = true
+org.gnome.shell.extensions.dash-to-dock dash-max-icon-size = 48
+org.gnome.shell.extensions.dash-to-dock click-action = 'minimize-or-previews'
+org.gnome.shell.extensions.dash-to-dock show-apps-at-top = true
+org.gnome.shell.extensions.dash-to-dock show-trash = true
+org.gnome.shell.extensions.dash-to-dock show-mounts = false
+org.gnome.shell.extensions.dash-to-dock running-indicator-style = 'DOTS'
+org.gnome.shell.extensions.dash-to-dock transparency-mode = 'FIXED'
+org.gnome.shell.extensions.dash-to-dock background-opacity = 0.0
+
+[Ptyxis Terminal]
+org.gnome.Ptyxis interface-style = 'dark'
+org.gnome.Ptyxis.Profile palette = 'MacTahoeDark'
+org.gnome.Ptyxis.Profile opacity = 0.88
+
+[Blur my Shell]
+-- panel --
+org.gnome.shell.extensions.blur-my-shell.panel blur true
+org.gnome.shell.extensions.blur-my-shell.panel brightness 1.0
+org.gnome.shell.extensions.blur-my-shell.panel corner-radius 0
+org.gnome.shell.extensions.blur-my-shell.panel customize false
+org.gnome.shell.extensions.blur-my-shell.panel force-light-text false
+org.gnome.shell.extensions.blur-my-shell.panel gradient-panel false
+org.gnome.shell.extensions.blur-my-shell.panel gradient-panel-mode 0
+org.gnome.shell.extensions.blur-my-shell.panel match-theme-in-overview false
+org.gnome.shell.extensions.blur-my-shell.panel override-background true
+org.gnome.shell.extensions.blur-my-shell.panel override-background-dynamically false
+org.gnome.shell.extensions.blur-my-shell.panel override-background-dynamically-mode 1
+org.gnome.shell.extensions.blur-my-shell.panel pipeline 'pipeline_tahoe_glass'
+org.gnome.shell.extensions.blur-my-shell.panel pipeline-auto-mode false
+org.gnome.shell.extensions.blur-my-shell.panel pipeline-dark 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.panel pipeline-light 'pipeline_default_light'
+org.gnome.shell.extensions.blur-my-shell.panel rounded-corners 0
+org.gnome.shell.extensions.blur-my-shell.panel sigma 30
+org.gnome.shell.extensions.blur-my-shell.panel static-blur false
+org.gnome.shell.extensions.blur-my-shell.panel style-panel 0
+org.gnome.shell.extensions.blur-my-shell.panel unblur-in-overview true
+-- dash-to-dock --
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock blur true
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock brightness 0.59999999999999998
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock customize false
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock override-background false
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock pipeline 'pipeline_tahoe_glass'
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock pipeline-auto-mode false
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock pipeline-dark 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock pipeline-light 'pipeline_default_light'
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock sigma 30
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock static-blur false
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock style-dash-to-dock 0
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock unblur-in-overview true
+-- popup --
+org.gnome.shell.extensions.blur-my-shell.popup blur true
+org.gnome.shell.extensions.blur-my-shell.popup blur-behind-dialogs true
+org.gnome.shell.extensions.blur-my-shell.popup blur-calendar true
+org.gnome.shell.extensions.blur-my-shell.popup blur-candidates true
+org.gnome.shell.extensions.blur-my-shell.popup blur-dialogs true
+org.gnome.shell.extensions.blur-my-shell.popup blur-keyboard true
+org.gnome.shell.extensions.blur-my-shell.popup blur-menus true
+org.gnome.shell.extensions.blur-my-shell.popup blur-notifications true
+org.gnome.shell.extensions.blur-my-shell.popup blur-osds true
+org.gnome.shell.extensions.blur-my-shell.popup blur-quick-settings true
+org.gnome.shell.extensions.blur-my-shell.popup blur-resize-popups true
+org.gnome.shell.extensions.blur-my-shell.popup blur-screenshot true
+org.gnome.shell.extensions.blur-my-shell.popup blur-submenus true
+org.gnome.shell.extensions.blur-my-shell.popup blur-switchers true
+org.gnome.shell.extensions.blur-my-shell.popup brightness 0.71999999999999997
+org.gnome.shell.extensions.blur-my-shell.popup calendar-corner-radius 30
+org.gnome.shell.extensions.blur-my-shell.popup candidate-corner-radius 12
+org.gnome.shell.extensions.blur-my-shell.popup corner-radius 18
+org.gnome.shell.extensions.blur-my-shell.popup dialog-corner-radius 18
+org.gnome.shell.extensions.blur-my-shell.popup menu-corner-radius 20
+org.gnome.shell.extensions.blur-my-shell.popup notification-corner-radius 18
+org.gnome.shell.extensions.blur-my-shell.popup osd-corner-radius 28
+org.gnome.shell.extensions.blur-my-shell.popup osd-window-corner-radius 48
+org.gnome.shell.extensions.blur-my-shell.popup osk-corner-radius 0
+org.gnome.shell.extensions.blur-my-shell.popup override-background true
+org.gnome.shell.extensions.blur-my-shell.popup pipeline 'pipeline_tahoe_glass'
+org.gnome.shell.extensions.blur-my-shell.popup pipeline-auto-mode false
+org.gnome.shell.extensions.blur-my-shell.popup pipeline-dark 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.popup pipeline-light 'pipeline_default_light'
+org.gnome.shell.extensions.blur-my-shell.popup preserve-shell-theme false
+org.gnome.shell.extensions.blur-my-shell.popup quick-settings-corner-radius 30
+org.gnome.shell.extensions.blur-my-shell.popup resize-popup-corner-radius 12
+org.gnome.shell.extensions.blur-my-shell.popup rounded-corners 0
+org.gnome.shell.extensions.blur-my-shell.popup screenshot-corner-radius 36
+org.gnome.shell.extensions.blur-my-shell.popup sigma 35
+org.gnome.shell.extensions.blur-my-shell.popup static-blur false
+org.gnome.shell.extensions.blur-my-shell.popup style-popup 0
+org.gnome.shell.extensions.blur-my-shell.popup submenu-corner-radius 24
+-- overview --
+org.gnome.shell.extensions.blur-my-shell.overview blur true
+org.gnome.shell.extensions.blur-my-shell.overview pipeline 'pipeline_tahoe_glass'
+org.gnome.shell.extensions.blur-my-shell.overview pipeline-auto-mode false
+org.gnome.shell.extensions.blur-my-shell.overview pipeline-dark 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.overview pipeline-light 'pipeline_default_light'
+org.gnome.shell.extensions.blur-my-shell.overview style-components 0
+org.gnome.shell.extensions.blur-my-shell.overview workspace-corner-radius 24
+-- applications --
+org.gnome.shell.extensions.blur-my-shell.applications blacklist ['Plank', 'com.desktop.ding', 'Conky']
+org.gnome.shell.extensions.blur-my-shell.applications blur false
+org.gnome.shell.extensions.blur-my-shell.applications blur-menus false
+org.gnome.shell.extensions.blur-my-shell.applications blur-on-overview false
+org.gnome.shell.extensions.blur-my-shell.applications brightness 1.0
+org.gnome.shell.extensions.blur-my-shell.applications corner-radius 15
+org.gnome.shell.extensions.blur-my-shell.applications corner-when-maximized false
+org.gnome.shell.extensions.blur-my-shell.applications customize true
+org.gnome.shell.extensions.blur-my-shell.applications dynamic-opacity false
+org.gnome.shell.extensions.blur-my-shell.applications enable-all false
+org.gnome.shell.extensions.blur-my-shell.applications menu-corner-radius 15
+org.gnome.shell.extensions.blur-my-shell.applications opacity 255
+org.gnome.shell.extensions.blur-my-shell.applications pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.applications pipeline-auto-mode false
+org.gnome.shell.extensions.blur-my-shell.applications pipeline-dark 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.applications pipeline-light 'pipeline_default_light'
+org.gnome.shell.extensions.blur-my-shell.applications rounded-corners 0
+org.gnome.shell.extensions.blur-my-shell.applications sigma 50
+org.gnome.shell.extensions.blur-my-shell.applications static-blur false
+org.gnome.shell.extensions.blur-my-shell.applications unblur-when-fullscreen false
+org.gnome.shell.extensions.blur-my-shell.applications whitelist @as []
+
+[Rounded Window Corners Reborn]
+blacklist = ['Antigravity', 'antigravity']
+
+[Raccoon Launcher]
+org.gnome.shell.extensions.raccoonlauncher box-color 'rgba(18, 18, 24, 0.78)'
+org.gnome.shell.extensions.raccoonlauncher enable-apps true
+org.gnome.shell.extensions.raccoonlauncher enable-calc true
+org.gnome.shell.extensions.raccoonlauncher enable-system true
+org.gnome.shell.extensions.raccoonlauncher enable-web true
+org.gnome.shell.extensions.raccoonlauncher max-results 12
+org.gnome.shell.extensions.raccoonlauncher toggle-launcher ['<Alt>space']
